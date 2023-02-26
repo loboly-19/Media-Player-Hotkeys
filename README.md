@@ -2,11 +2,13 @@
 
 This Python script listens to the Page Up and Page Down keys and simulates the media keys for skipping to the next or previous song system-wide using the `pyautogui` and `keyboard` modules. The script also blocks the Page Up and Page Down keys from any other use while it's running to prevent conflicts with other applications.
 
+
 ## Requirements
 
 - Python 3.x
 - `pyautogui` module (install with `pip install pyautogui`)
 - `keyboard` module (install with `pip install keyboard`)
+
 
 ## Usage
 
@@ -22,9 +24,11 @@ python media_player_hotkeys.py
 
 To stop the script, press `Ctrl+C` in the terminal or command prompt.
 
+
 ## Customization
 
 By default, the script uses the `Page Up` and `Page Down` keys as the hotkeys for skipping to the previous and next song. To use different keys, edit the `NEXT_KEY` and `PREV_KEY` variables at the beginning of the script.
+
 
 ## Notes
 
