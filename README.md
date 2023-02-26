@@ -14,7 +14,9 @@ This Python script listens to the Page Up and Page Down keys and simulates the m
 2. Install the required modules using `pip`.
 3. Run the script in a terminal or command prompt:
 
-```python media_player_hotkeys.py```
+```
+python media_player_hotkeys.py
+```
 
 4. Press the `Page Up` or `Page Down` key to skip to the previous or next song in your media player software.
 
